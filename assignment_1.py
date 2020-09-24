@@ -5,23 +5,18 @@ The fastest one to push is lucky, the others will most likely get a merge
 conflict. See if you can fix it :)
 """
 
-def lower_case(string):
-    """
-    Argument:
-    string -- text you want to turn into lower case
+def lower_case(string_test):
 
-    Returns:
-    lower_string -- lower case version of string
+    lower = string_test.lower()
 
-    """
-
-    ### your code starts here
-
-    ### your code ends here
-
-    return lower_string
+    return lower
 
 
+
+
+def upper_case(string_test1):
+
+<<<<<<< Updated upstream
 """
 Do the same thing again with upper_case, but change the order so everyone
 experiences at least 1 merge conflict.
@@ -42,3 +37,8 @@ def upper_case(string):
     ### your code ends here
 
     return lower_string
+=======
+    upper = string_test1.upper()
+
+    return upper
+>>>>>>> Stashed changes
